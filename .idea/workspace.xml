@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d17b3ee-79d2-41c8-8aaf-213af428e926" name="Changes" comment="added CustomButton component and updated Login screen with social login options">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-SemiBoldItalic.ttf" afterDir="false" />
+    <list default="true" id="2d17b3ee-79d2-41c8-8aaf-213af428e926" name="Changes" comment="updated CustomButton component and enhanced Login screen with text shadow effects and font adjustments">
+      <change afterPath="$PROJECT_DIR$/app/login-email.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/custom-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/custom-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +95,8 @@
       <workItem from="1747126411130" duration="963000" />
       <workItem from="1747152585073" duration="2043000" />
       <workItem from="1747154671768" duration="150000" />
-      <workItem from="1747207053903" duration="2444000" />
+      <workItem from="1747207053903" duration="3425000" />
+      <workItem from="1747217929785" duration="1164000" />
     </task>
     <task id="LOCAL-00001" summary="inizio del progetto dopo avere resettato il template project.">
       <option name="closed" value="true" />
@@ -144,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747154627256</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated CustomButton component and enhanced Login screen with text shadow effects and font adjustments">
+      <option name="closed" value="true" />
+      <created>1747209955917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747209955917</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +172,7 @@
     <MESSAGE value="aggiunto gluestack al progetto assieme a TailWind e NativeWind" />
     <MESSAGE value="aggiornato expo a 53 e le dependencies." />
     <MESSAGE value="added CustomButton component and updated Login screen with social login options" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CustomButton component and updated Login screen with social login options" />
+    <MESSAGE value="updated CustomButton component and enhanced Login screen with text shadow effects and font adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated CustomButton component and enhanced Login screen with text shadow effects and font adjustments" />
   </component>
 </project>

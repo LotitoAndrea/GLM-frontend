@@ -1,6 +1,7 @@
 import { Text, ImageBackground, Image, TouchableOpacity } from 'react-native';
 import React from 'react';
 import CustomButton from '@/components/custom-button';
+import {router} from "expo-router";
 
 const Login = () => {
     return (
@@ -51,13 +52,16 @@ const Login = () => {
                         resizeMode="contain"
                     />
                 }
-                onPress={() => {}}
+                onPress={() => {router.push('/login-email')}}
                 textStyle="text-black"
             />
 
             {/* Link in basso */}
             <TouchableOpacity className="mt-10" onPress={() => {}}>
-                <Text className="text-white font-body" style={{ textShadowColor: '#000', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 4 }}>
+                <Text className="text-white font-body"
+                    style={{ textShadowColor: '#000', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 4 }}
+                    onPress={() => {/*router.push('/register')*/}}
+                >
                     Non hai un account? <Text className="underline">Crea un account</Text>
                 </Text>
             </TouchableOpacity>
