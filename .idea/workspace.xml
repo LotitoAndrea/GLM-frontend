@@ -4,17 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d17b3ee-79d2-41c8-8aaf-213af428e926" name="Changes" comment="added NativeWind and Tailwind integration with configuration files and global styles">
-      <change afterPath="$PROJECT_DIR$/assets/backgrounds/background1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/custom-button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/images.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/type.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2d17b3ee-79d2-41c8-8aaf-213af428e926" name="Changes" comment="added CustomButton component and updated Login screen with social login options">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/static/Rubik-SemiBoldItalic.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/custom-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/custom-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +79,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nunzi\OneDrive\Desktop\GLM-frontend\assets\fonts" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +108,9 @@
       <workItem from="1747037272196" duration="50000" />
       <workItem from="1747121999312" duration="6000" />
       <workItem from="1747126411130" duration="963000" />
-      <workItem from="1747152585073" duration="1806000" />
+      <workItem from="1747152585073" duration="2043000" />
+      <workItem from="1747154671768" duration="150000" />
+      <workItem from="1747207053903" duration="2444000" />
     </task>
     <task id="LOCAL-00001" summary="inizio del progetto dopo avere resettato il template project.">
       <option name="closed" value="true" />
@@ -120,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746966368686</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added CustomButton component and updated Login screen with social login options">
+      <option name="closed" value="true" />
+      <created>1747154627256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747154627256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +161,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/registrazione" />
                       </list>
                     </value>
                   </entry>
@@ -153,6 +177,7 @@
     <MESSAGE value="inizio del progetto dopo avere resettato il template project." />
     <MESSAGE value="aggiunto gluestack al progetto assieme a TailWind e NativeWind" />
     <MESSAGE value="aggiornato expo a 53 e le dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiornato expo a 53 e le dependencies." />
+    <MESSAGE value="added CustomButton component and updated Login screen with social login options" />
+    <option name="LAST_COMMIT_MESSAGE" value="added CustomButton component and updated Login screen with social login options" />
   </component>
 </project>

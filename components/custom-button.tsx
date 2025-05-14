@@ -14,7 +14,7 @@ const CustomButton = ({
     return (
         <TouchableOpacity
             onPress={onPress}
-            className={`rounded-[20px] shadow-black elevation-xl flex flex-row gap-x-3 items-center ${className}`}
+            className={`rounded-[20px] shadow-black elevation-xl flex flex-row gap-x-3 font-heading items-center ${className}`}
             {...props}
         >
             {IconLeft}

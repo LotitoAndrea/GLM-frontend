@@ -10,9 +10,8 @@ const Login = () => {
             resizeMode="cover"
         >
             {/* Titolo */}
-            <Text className="text-white text-4xl font-bold mb-2">GLM Club</Text>
-            <Text className="text-white text-base mb-8">Registrati o accedi al tuo account</Text>
-
+            <Text className="text-white font-extrabold text-4xl mb-2 font-heading" style={{ textShadowColor: '#000', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 4 }}>GLM Club</Text>
+            <Text className="text-white text-base mb-8 font-body" style={{ textShadowColor: '#000', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 4 }}>Registrati o accedi al tuo account</Text>
             {/* Pulsanti */}
             <CustomButton
                 title="Continua con Google"
@@ -58,7 +57,7 @@ const Login = () => {
 
             {/* Link in basso */}
             <TouchableOpacity className="mt-10" onPress={() => {}}>
-                <Text className="text-white">
+                <Text className="text-white font-body" style={{ textShadowColor: '#000', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 4 }}>
                     Non hai un account? <Text className="underline">Crea un account</Text>
                 </Text>
             </TouchableOpacity>
