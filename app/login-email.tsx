@@ -1,10 +1,53 @@
 import React, { useState } from 'react';
-import { Text, TextInput, ImageBackground, TouchableOpacity } from 'react-native';
+import { Text, TextInput, ImageBackground, TouchableOpacity, Alert } from 'react-native';
 import CustomButton from '@/components/custom-button';
 
 const LoginEmail = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [loading, setLoading] = useState(false);
+
+    const isEmailValid = (email: string) => {
+        return email.includes('@') && email.includes('.');
+    };
+
+    const isPasswordValid = (password: string) => {
+        return (
+            password.length >= 7 &&
+            /[A-Z]/.test(password) &&           // almeno una maiuscola
+            /[0-9]/.test(password) &&           // almeno un numero
+            /[!@#$%^&*(),.?":{}|<>]/.test(password) // almeno un simbolo speciale
+        );
+    };
+
+    const handleLogin = () => {
+        if (!email || !password) {
+            Alert.alert('Errore', 'Per favore, inserisci email e password.');
+            return;
+        }
+
+        if (!isEmailValid(email)) {
+            Alert.alert('Email non valida', 'L\'email deve contenere "@" e "."');
+            return;
+        }
+
+        if (!isPasswordValid(password)) {
+            Alert.alert(
+                'Password non valida',
+                'La password deve contenere almeno 7 caratteri, una lettera maiuscola, un numero e un simbolo speciale.'
+            );
+            return;
+        }
+
+        setLoading(true);
+
+        // Simula login
+        setTimeout(() => {
+            setLoading(false);
+            Alert.alert('Login effettuato!', `Benvenuto, ${email}`);
+            console.log('LOGIN:', { email, password });
+        }, 1500);
+    };
 
     return (
         <ImageBackground
@@ -12,7 +55,6 @@ const LoginEmail = () => {
             className="flex-1 justify-center items-center px-6"
             resizeMode="cover"
         >
-            {/* Titolo */}
             <Text className="text-white font-extrabold text-4xl mb-2 font-heading" style={{ textShadowColor: '#000', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 4 }}>
                 GLM Club
             </Text>
@@ -20,7 +62,6 @@ const LoginEmail = () => {
                 Accedi usando la tua email
             </Text>
 
-            {/* Email */}
             <TextInput
                 placeholder="inserisci la tua email..."
                 placeholderTextColor="#666"
@@ -31,7 +72,6 @@ const LoginEmail = () => {
                 autoCapitalize="none"
             />
 
-            {/* Password */}
             <TextInput
                 placeholder="inserisci la tua password..."
                 placeholderTextColor="#666"
@@ -41,34 +81,20 @@ const LoginEmail = () => {
                 secureTextEntry
             />
 
-            {/* Password dimenticata */}
             <TouchableOpacity className="self-start mb-6">
                 <Text className="text-white italic font-medium" style={{ textShadowColor: '#000', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 4 }}>
                     Non ricordi la password? <Text className="font-bold underline">Password dimenticata</Text>
                 </Text>
             </TouchableOpacity>
 
-            {/* Bottone Accedi */}
             <CustomButton
-                title="Accedi"
-                className="bg-white px-4 py-3 w-full mb-10 text-center"
-                textStyle="text-gray-500 text-lg text-center"
-                onPress={() => {
-                    // later: logica di accesso
-                    if (!email || !password)
-                        {
-                            alert('Per favore, inserisci email e password.');
-                        }
-                    else
-                        {
-                            console.log('Login con email:', email, password);
-                            alert('Login effettuato con successo!');
-                        }
-                    }
-                }
+                title={loading ? 'Caricamento...' : 'Accedi'}
+                className={`bg-blue-400 px-4 py-3 mb-5 ${loading ? 'opacity-50' : ''}`}
+                textStyle="text-white"
+                onPress={handleLogin}
+                disabled={loading}
             />
 
-            {/* Crea account */}
             <TouchableOpacity>
                 <Text className="text-white" style={{ textShadowColor: '#000', textShadowOffset: { width: 0, height: 2 }, textShadowRadius: 4 }}>
                     Non hai un account? <Text className="underline font-semibold italic">Crea il tuo account!</Text>

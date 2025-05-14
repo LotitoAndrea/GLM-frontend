@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d17b3ee-79d2-41c8-8aaf-213af428e926" name="Changes" comment="updated CustomButton component and enhanced Login screen with text shadow effects and font adjustments">
-      <change afterPath="$PROJECT_DIR$/app/login-email.tsx" afterDir="false" />
+    <list default="true" id="2d17b3ee-79d2-41c8-8aaf-213af428e926" name="Changes" comment="added login-email screen and updated login component with email authentication logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/login-email.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/login-email.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,8 @@
       <workItem from="1747152585073" duration="2043000" />
       <workItem from="1747154671768" duration="150000" />
       <workItem from="1747207053903" duration="3425000" />
-      <workItem from="1747217929785" duration="1164000" />
+      <workItem from="1747217929785" duration="1904000" />
+      <workItem from="1747226522959" duration="1167000" />
     </task>
     <task id="LOCAL-00001" summary="inizio del progetto dopo avere resettato il template project.">
       <option name="closed" value="true" />
@@ -138,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747209955917</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added login-email screen and updated login component with email authentication logic">
+      <option name="closed" value="true" />
+      <created>1747220038971</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747220038971</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +180,7 @@
     <MESSAGE value="aggiornato expo a 53 e le dependencies." />
     <MESSAGE value="added CustomButton component and updated Login screen with social login options" />
     <MESSAGE value="updated CustomButton component and enhanced Login screen with text shadow effects and font adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated CustomButton component and enhanced Login screen with text shadow effects and font adjustments" />
+    <MESSAGE value="added login-email screen and updated login component with email authentication logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="added login-email screen and updated login component with email authentication logic" />
   </component>
 </project>
