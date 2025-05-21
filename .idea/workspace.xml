@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d17b3ee-79d2-41c8-8aaf-213af428e926" name="Changes" comment="added login-email screen and updated login component with email authentication logic">
+    <list default="true" id="2d17b3ee-79d2-41c8-8aaf-213af428e926" name="Changes" comment="added email and password validation logic to login-email screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/login-email.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/login-email.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +95,8 @@
       <workItem from="1747207053903" duration="3425000" />
       <workItem from="1747217929785" duration="1904000" />
       <workItem from="1747226522959" duration="1167000" />
+      <workItem from="1747227801299" duration="436000" />
+      <workItem from="1747294191011" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="inizio del progetto dopo avere resettato il template project.">
       <option name="closed" value="true" />
@@ -145,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747220038971</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added email and password validation logic to login-email screen">
+      <option name="closed" value="true" />
+      <created>1747228224398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747228224398</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +190,7 @@
     <MESSAGE value="added CustomButton component and updated Login screen with social login options" />
     <MESSAGE value="updated CustomButton component and enhanced Login screen with text shadow effects and font adjustments" />
     <MESSAGE value="added login-email screen and updated login component with email authentication logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="added login-email screen and updated login component with email authentication logic" />
+    <MESSAGE value="added email and password validation logic to login-email screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="added email and password validation logic to login-email screen" />
   </component>
 </project>

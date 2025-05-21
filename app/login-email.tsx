@@ -45,7 +45,7 @@ const LoginEmail = () => {
         setTimeout(() => {
             setLoading(false);
             Alert.alert('Login effettuato!', `Benvenuto, ${email}`);
-            console.log('LOGIN:', { email, password });
+            // console.log('LOGIN:', { email, password });
         }, 1500);
     };
 
